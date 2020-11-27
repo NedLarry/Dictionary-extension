@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wordDef</title>
+
+    <style>
+
+        .main{
+            width: 320px;
+            height: 120px;
+            color: grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: monospace;
+            padding: 6px;
+            padding-top: 0px;
+            box-sizing: border-box;
+        }
+        #form-container{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 5px;
+            margin-top: 0px;
+        }
+        input{
+            width: 60%;
+            height: 15px;
+            padding: 4px;
+            color: gray;
+            border: 1px solid lightgray;
+            border-bottom: 2px solid lightgray;
+        }
+
+        button{
+            padding: 4px;
+            width: 60px;
+            color: gray;
+            border: 1px solid lightgray;
+            border-bottom: 2px solid lightgray;
+            background-color: transparent;
+        }
+        button:focus{
+            outline: none;
+            color: black;
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        #desc{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #desc h4{
+            margin: 0;
+        }
+
+        #desc #meaning{
+            width: 100%;
+            text-align: left;
+            margin-top: 3px;
+        }
+
+        #desc #example{
+            width: 100%;
+            text-align: center;
+            font-style: italic;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <main class="main">
+        <div id="form-container">
+            <input type="text" placeholder="word to find">
+            <button>find</button>
+        </div>
+
+        <div id="desc" >
+            <h4></h4>
+            <p id="meaning"></p>
+            <p id="example"></p>
+        </div>
+    </main>
+
+
+    <script src="./popup.js">
+
+    </script>
+</body>
+</html>
