@@ -1,3 +1,3 @@
-#Inspired [meetDeveloper](https://github.com/meetDeveloper/googleDictionaryAPI)
+#Inspired by [meetDeveloper](https://github.com/meetDeveloper/googleDictionaryAPI)
 
 
